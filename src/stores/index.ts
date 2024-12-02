@@ -1,5 +1,4 @@
-import { defineStore } from '#q-app/wrappers'
-import { createPinia } from 'pinia'
+import { defineStore } from '#q-app/wrappers';
 import type { Router } from 'vue-router';
 
 /*
@@ -23,10 +22,10 @@ declare module 'pinia' {
  */
 
 export default defineStore((/* { ssrContext } */) => {
-  const pinia = createPinia()
+  const pinia = createPinia();
 
   // You can add Pinia plugins here
   // pinia.use(SomePiniaPlugin)
 
-  return pinia
-})
+  return pinia;
+});
